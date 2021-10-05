@@ -9,7 +9,7 @@ var path        = require('path');
 var request     = require('request');
 var routes      = require('./routes');
 var activity    = require('./routes/activity');
-console.log("activity"+activity);
+console.log("activity"+JSON.stringify(activity));
 const SFClient = require('./utils/sfmc-client');
 var app = express();
 
