@@ -12,7 +12,7 @@ const SFClient = require('../utils/sfmc-client');
 //const { v1: Uuidv1 } = require('uuid');   //for unique id
 //----------------------------------------
 exports.logExecuteData = [];
-
+console.log("IN activity.js");
 function logData(req) {
     exports.logExecuteData.push({
         body: req.body,
