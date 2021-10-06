@@ -12,7 +12,7 @@ var activity    = require('./routes/activity');
 console.log("activity"+JSON.stringify(activity));
 const SFClient = require('./utils/sfmc-client');
 var app = express();
-
+console.log("app"+app);
 // Configure Express
 app.set('port', process.env.PORT || 3000);
 app.use(bodyParser.json({type: 'application/json'})); 
