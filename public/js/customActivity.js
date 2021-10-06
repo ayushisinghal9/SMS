@@ -1,3 +1,4 @@
+console.log("custom activity.js");
 define([
     'postmonger'
 ], function(
