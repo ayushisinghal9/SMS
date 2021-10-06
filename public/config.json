@@ -1,4 +1,3 @@
-console.log("config.json");
 {
     "workflowApiVersion": "1.1",
     "key":"3b16ba99-fb67-4167-ad6f-5258798a2d87",
@@ -23,7 +22,7 @@ console.log("config.json");
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-journey.herokuapp.com/journeybuilder/execute",
+            "url": "https://sms-ayushi.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -34,7 +33,7 @@ console.log("config.json");
     "configurationArguments": {
       "applicationExtensionKey": "3b16ba99-fb67-4167-ad6f-5258798a2d87",
        "save": {
-           "url": "https://twilio-journey.herokuapp.com/journeybuilder/save",
+           "url": "https://sms-ayushi.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -42,7 +41,7 @@ console.log("config.json");
             "timeout": 2000
        },
        "publish": {
-           "url": "https://twilio-journey.herokuapp.com/journeybuilder/publish",
+           "url": "https://sms-ayushi.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -50,7 +49,7 @@ console.log("config.json");
             "timeout": 2000
        },
        "validate": {
-           "url": "https://twilio-journey.herokuapp.com/journeybuilder/validate",
+           "url": "https://sms-ayushi.herokuapp.com/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -58,7 +57,7 @@ console.log("config.json");
             "timeout": 2000
        },
        "stop": {
-           "url": "https://twilio-journey.herokuapp.com/journeybuilder/stop",
+           "url": "https://sms-ayushi.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
