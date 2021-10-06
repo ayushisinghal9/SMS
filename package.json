@@ -42,4 +42,3 @@
     "winston": "^3.3.3"
   }
 } 
-console.log("package.json");
