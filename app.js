@@ -16,7 +16,7 @@ console.log("app"+app);
 // Configure Express
 app.set('port', process.env.PORT || 3000);
 app.use(bodyParser.json({type: 'application/json'})); 
-//app.use(bodyParser.urlencoded({ extended: true })); //commented
+app.use(bodyParser.urlencoded({ extended: true })); 
 
 //app.use(express.methodOverride());
 //app.use(express.favicon());
